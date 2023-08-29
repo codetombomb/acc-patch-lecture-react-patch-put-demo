@@ -1,0 +1,8 @@
+.main-section {
+  height: 100vh;
+  display: flex;
+}
+
+.App > h1 {
+  text-align: center;
+}
