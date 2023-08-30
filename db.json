@@ -1,20 +1,24 @@
 {
-    "students": [
-      {
-        "id": 1,
-        "student_id": "FIS12345",
-        "github_username": "sarah_codes",
-        "email": "sarah_codes@gmail.com",
-        "first_name": "Sarah",
-        "last_name": "Jones",
-        "age": 28,
-        "program": "Full Stack Web Development",
-        "cohort": "WDI-2101",
-        "location": "New York City",
-        "career_goal": "Become a Full Stack Developer",
-        "favorite_tech_stack": ["JavaScript", "React", "Flask"],
-        "enrollment_date": "2022-01-10",
-        "graduation_date": "2022-06-30"
-      }
-    ]
-  }
+  "students": [
+    {
+      "id": 1,
+      "student_id": "FIS12345",
+      "github_username": "sarahcodes",
+      "email": "sarah_codes@gmail.com",
+      "first_name": "Sarah",
+      "last_name": "Jones",
+      "age": "12",
+      "program": "Full Stack Web Development",
+      "cohort": "WDI-2101",
+      "location": "New York City",
+      "career_goal": "Become a Full Stack Developer",
+      "favorite_tech_stack": [
+        "JavaScript",
+        "React",
+        "Flask"
+      ],
+      "enrollment_date": "2022-01-10",
+      "graduation_date": "2022-06-30"
+    }
+  ]
+}

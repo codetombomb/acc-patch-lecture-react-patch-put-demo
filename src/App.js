@@ -12,12 +12,16 @@ function App() {
       .then((data) => setStudent(data));
   }, []);
 
+  const onUpdateStudent = (updatedStudent) => {
+    setStudent(updatedStudent)
+  }
+
   return (
     <div className="App">
       <h1>Patch Demo</h1>
       <main className="main-section">
         <StudentDetails student={student} />
-        <EditFormSection />
+        <EditFormSection handleUpdateStudent={onUpdateStudent}/>
       </main>
     </div>
   );
